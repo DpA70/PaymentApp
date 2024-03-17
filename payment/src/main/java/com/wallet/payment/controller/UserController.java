@@ -1,17 +1,7 @@
 package com.wallet.payment.controller;
 
-import lombok.*;
+import org.springframework.web.bind.annotation.RestController;
 
-import javax.annotation.processing.Generated;
-
-@AllArgsConstructor
-@NoArgsConstructor
-@Data
+@RestController("user")
 public class UserController {
-    private String phoneNumber;
-    private String firstName;
-    private String lastName;
-    private String address;
-    private Long bankAccountNumber;
-
 }

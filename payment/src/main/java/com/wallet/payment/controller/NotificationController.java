@@ -5,11 +5,9 @@ import com.wallet.payment.model.User;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+import org.springframework.web.bind.annotation.RestController;
 
-@NoArgsConstructor
-@AllArgsConstructor
-@Data
+@RestController("notify")
 public class NotificationController {
-    private User user;
-    private Transaction transaction;
+
 }
