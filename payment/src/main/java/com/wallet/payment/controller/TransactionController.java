@@ -1,17 +1,8 @@
 package com.wallet.payment.controller;
 
-import lombok.AllArgsConstructor;
-import lombok.Data;
-import lombok.NoArgsConstructor;
+import org.springframework.web.bind.annotation.RestController;
 
-import java.util.Date;
-
-@AllArgsConstructor
-@NoArgsConstructor
-@Data
+@RestController("transaction")
 public class TransactionController {
-    private String transactionType;
-    private String transactionID;
-    private String status;
-    private Date transactionTime;
+
 }
